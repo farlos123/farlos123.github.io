@@ -1,0 +1,37 @@
+.op{
+    background-color: #603F8B;
+    border: none;
+    color: #FD49A0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.button{
+    background-color: #B4FEE7;
+    border: none;
+    color: #FD49A0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.screen{
+    text-align: center;
+    border: #A16AE8;
+    width: 40%;
+    font-size: large;
+    color: #A16AE8;
+}
+body{
+    height: 100%;
+    text-align: center;
+}

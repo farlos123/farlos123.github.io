@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <script type="text/javascript" charset="utf-8" src="calc.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+    <body onload="onLoad()">
+        <form name="calc">
+                    <input class="screen" type="text" name="visor"></input></br>
+                    <input class="button" type="button" name="num" value="7" onclick="valor(value)"></input>
+                    <input class="button" type="button" name="num" value="8" onclick="valor(value)"></input>
+                    <input class="button" type="button" name="num" value="9" onclick="valor(value)"></input>
+                    <input class="op" type="button" name="op" value="+" onclick="valor(value)"></input><br>
+                    <input class="button" type="button" name="num" value="4" onclick="valor(value)"></input>
+                    <input class="button" type="button" name="num" value="5" onclick="valor(value)"></input>
+                    <input class="button" type="button" name="num" value="6" onclick="valor(value)"></input>
+                    <input class="op" type="button" name="op" value="-" onclick="valor(value)"></input><br>
+                    <input class="button" type="button" name="num" value="1" onclick="valor(value)"></input>
+                    <input class="button" type="button" name="num" value="2" onclick="valor(value)"></input>
+                    <input class="button" type="button" name="num" value="3" onclick="valor(value)"></input>
+                    <input class="op" type="button" name="op" value="*" onclick="valor(value)"></input><br>
+                    <input class="op" type="button" name="op" value="C" onclick="apagar(value)"></input>
+                    <input class="button" type="button" name="num" value="0" onclick="valor(value)"></input>
+                    <input class="op" type="button" name="op" value="=" onclick="igual(value)"></input>
+                    <input class="op" type="button" name="op" value="/" onclick="valor(value)"></input>
+        </form>
+    </body>
+</html>
